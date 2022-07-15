@@ -126,7 +126,7 @@ const sendMessage = () => {
             height="450"
             style="border: 0"
             loading="lazy"
-            allowfullscreen=""
+            :allowfullscreen="false"
           ></iframe>
         </div>
       </div>
