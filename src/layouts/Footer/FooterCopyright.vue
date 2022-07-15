@@ -15,7 +15,7 @@ const author = ref("MWK");
         >{{ author }}</a
       >
       {{ copyrightDate }}
-      <p class="inline"> Open sourced on <a href="#"><fa  :icon="['fab','github']" class="mx-3"/></a> and deployed on <a href="#"><img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTEzIiBoZWlnaHQ9IjEwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZGVmcz48bGluZWFyR3JhZGllbnQgeDE9IjE5Ni41NzIlIiB5MT0iMjI4LjgxNSUiIHgyPSI1MCUiIHkyPSI1MCUiIGlkPSJhIj48c3RvcCBvZmZzZXQ9IjAlIi8+PHN0b3Agc3RvcC1jb2xvcj0iI0ZGRiIgb2Zmc2V0PSIxMDAlIi8+PC9saW5lYXJHcmFkaWVudD48L2RlZnM+PHBhdGggZD0iTTM1MC41IDE1MEw0MDcgMjUwSDI5NHoiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC0yOTQgLTE1MCkiIGZpbGw9InVybCgjYSkiIGZpbGwtcnVsZT0iZXZlbm9kZCIvPjwvc3ZnPg==" class="mb-2 w-5 inline"></a></p>
+      <p class="inline"> Open sourced on <a href="https://github.com/mohammedmoutawakkil/Koala"><fa  :icon="['fab','github']" class="mx-3"/></a> and deployed on <a href="https://vercel.com/"><img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTEzIiBoZWlnaHQ9IjEwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZGVmcz48bGluZWFyR3JhZGllbnQgeDE9IjE5Ni41NzIlIiB5MT0iMjI4LjgxNSUiIHgyPSI1MCUiIHkyPSI1MCUiIGlkPSJhIj48c3RvcCBvZmZzZXQ9IjAlIi8+PHN0b3Agc3RvcC1jb2xvcj0iI0ZGRiIgb2Zmc2V0PSIxMDAlIi8+PC9saW5lYXJHcmFkaWVudD48L2RlZnM+PHBhdGggZD0iTTM1MC41IDE1MEw0MDcgMjUwSDI5NHoiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC0yOTQgLTE1MCkiIGZpbGw9InVybCgjYSkiIGZpbGwtcnVsZT0iZXZlbm9kZCIvPjwvc3ZnPg==" class="mb-2 w-5 inline"></a></p>
     </div>
   </div>
 </template>

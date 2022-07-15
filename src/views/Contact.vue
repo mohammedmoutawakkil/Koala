@@ -39,7 +39,7 @@ const sendMessage = () => {
               <div
                 class="input-errors"
                 v-for="error of v$.fullname.$errors"
-                :key="error.$id"
+                :key="error.$uid"
               >
                 <span class="mb-3 text-sm text-red-600">{{
                   error.$message
@@ -65,7 +65,7 @@ const sendMessage = () => {
               <div
                 class="input-errors"
                 v-for="error of v$.email.$errors"
-                :key="error.$id"
+                :key="error.$uid"
               >
                 <span class="mb-3 text-sm text-red-600">{{
                   error.$message
@@ -92,7 +92,7 @@ const sendMessage = () => {
               <div
                 class="input-errors"
                 v-for="error of v$.message.$errors"
-                :key="error.$id"
+                :key="error.$uid"
               >
                 <span class="mb-3 text-sm text-red-600">{{
                   error.$message
