@@ -1,4 +1,4 @@
-<script setup>
+<script setup lang="ts">
 import NavbarVue from './layouts/Navbar/Navbar.vue';
 import { computed} from '@vue/runtime-core';
 import Footer from './layouts/Footer/Footer.vue';
